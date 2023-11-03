@@ -1,0 +1,54 @@
+html {
+    font-size: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(183, 181, 185)
+}
+
+h1 {
+    font-size: 80px;
+    text-align: left;
+    text-shadow: 3px 3px 8px rgb(105, 102, 102);
+    padding: 5px 20px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align:left;
+    text-decoration:solid;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: whitesmoke;
+    background-blend-mode:luminosity;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;   
+}
+
+.flex-item {
+    flex: 2 2 200px; 
+}
+
+.subheading {
+
+}
